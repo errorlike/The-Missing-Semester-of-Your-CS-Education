@@ -1,0 +1,4 @@
+--测试xargs
+--echo apple,banana,orange | xargs -d , echo 
+-- 输出为 apple banana orange
+-- xargs 标准输出中的内容作为参数。管道符的将标准输出作为一个整体（类似一个文件）作为参数
